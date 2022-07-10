@@ -1,0 +1,38 @@
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  width: 8px;
+  height: 8px;
+  background-color: #999999;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffba08;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #ffba08;
+  font-size: 32px;
+}
+
+@media only screen and (min-width: 992px) {
+  .swiper-button-next {
+    margin-right: 20px;
+  }
+
+  .swiper-button-prev {
+    margin-left: 20px;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 60px;
+  }
+
+  .swiper-pagination-bullet,
+  .swiper-pagination-bullet-active {
+    width: 16px;
+    height: 16px;
+  }
+}
